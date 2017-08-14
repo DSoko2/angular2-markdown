@@ -1,3 +1,9 @@
+# Preamble
+
+This is only a fork of the [angular2-markdown project](https://github.com/dimpu/angular2-markdown), which solves a breaking [issue regarding the usage with ES modules](https://github.com/dimpu/angular2-markdown/issues/78). Since this fix breaks at least the module system used by the test suite, this fix might not be a general solution for everyone. If you should not face the issue, it is highly recommended to use the original angular2-markdown in your project. However, as long as the problem is not fixed, I am going to keep this fork close to the main project and deprecate it after the issue was solved in angular2-markdown itself.
+
+Cheers, Daniel
+
 # Angular 2 Markdown
 
 [![Build Status][travis-badge]][travis-badge-url]
